@@ -4,6 +4,7 @@ import { ToastContainer } from "react-toastify";
 import Header from "../components/Header";
 import Home from "../pages/Home";
 import Register from "../pages/Register";
+import Footer from "../components/Footer/index";
 
 const Root = () => {
     return (
@@ -17,6 +18,19 @@ const Root = () => {
                 <Route path='/register' element={<Register />} />
                 <Route path='*' element={<h1>404</h1>} />
             </Routes>
+
+
+
+
+
+
+
+
+
+
+
+            
+            <Footer/>
             <ToastContainer />
         </>
     );
